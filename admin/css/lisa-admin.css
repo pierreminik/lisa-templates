@@ -1,0 +1,29 @@
+.ace_editor {
+	border: 1px solid #000;
+	margin: auto;
+	width: 100%;
+}
+
+.scrollmargin {
+	height: 80px;
+  text-align: center;
+}
+
+#lisa-data b,
+.lisa_shortcode b {
+	display: inline-block;
+	padding: 2px 5px;
+	background-color: #e5e5e5;
+}
+
+#lisa-data textarea {
+	width: 100%;
+}
+
+div#normal-sortables.meta-box-sortables.ui-sortable {
+	min-height: 0 !important;
+}
+
+[v-cloak] {
+	display: none;
+}
