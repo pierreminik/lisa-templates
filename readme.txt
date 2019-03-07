@@ -1,4 +1,4 @@
-=== Lisa Templates Pro ===
+=== Lisa Templates ===
 Contributors: pierreminik
 Tags: template, twig, timber, tailor, acf, acf pro, polylang
 Requires at least: 4.8
@@ -45,12 +45,17 @@ Lisa Templates is running Twig through a plugin called Timber. Learn more about 
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/lisa` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-1. Write templates in the Lisa Templates tab
+1. Install the [GitHub Updater](https://github.com/afragen/github-updater)-plugin.
+1. In `Settings` > `GitHub Updater` select the `Install Plugin` tab.
+1. Copy and past the GitHub repository uri (which is[http://github.com/pierreminik/lisa-templates](http://github.com/pierreminik/lisa-templates)).
+1. Install and activate.
+1. Enjoy!
 
 
 == Changelog ==
+
+**1.4.4**
+Bumping version to check if GitHub Updater can update the plugin.
 
 **1.4.3**
 Open sourced the premium version of the plugin and merged into Lisa Templates.
