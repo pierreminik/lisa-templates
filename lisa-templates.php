@@ -14,7 +14,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Plugin Name:       Lisa Templates
  * Plugin URI:        https://templates.lisa.gl
  * Description:       Easily write templates filled with custom data that loads across your site.
- * Version:           1.4.4
+ * Version:           1.5.0
  * Author:            Pierre Minik Lynge
  * Author URI:        https://miniup.gl
  * License:           GPL-2.0+

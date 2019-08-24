@@ -117,7 +117,10 @@ if ( ! function_exists( 'lisa_shortcode' ) ) :
 					'template_id'		=> $template_id,
           'autoload'      => $autoload,
           'conditions'    => $matched_conditions
-				) );
+        ) );
+        
+        // Execute shortcodes.
+        $code = do_shortcode( $code );
 
         if ( $placement === 'prepend' ) {
           $content = $code . $content;

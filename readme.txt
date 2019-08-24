@@ -2,8 +2,8 @@
 Contributors: pierreminik
 Tags: template, twig, timber, tailor, acf, acf pro, polylang
 Requires at least: 4.8
-Tested up to: 5.1
-Stable tag: 1.4.3
+Tested up to: 5.2.2
+Stable tag: 1.5.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,6 +53,9 @@ Lisa Templates is running Twig through a plugin called Timber. Learn more about 
 
 
 == Changelog ==
+
+**1.5.0**
+Enabled shortcodes within templates.
 
 **1.4.4**
 Bumping version to check if GitHub Updater can update the plugin.

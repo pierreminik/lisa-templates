@@ -36,6 +36,10 @@ Lisa Templates is running Twig through a plugin called Timber. Learn more about 
 
 ## Changelog
 
+**1.5.0**
+
+- Enabled shortcodes within templates.
+
 **1.4.4**
 
 - Bumping version to check if GitHub Updater can update the plugin.
