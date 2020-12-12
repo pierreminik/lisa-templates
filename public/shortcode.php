@@ -80,7 +80,7 @@ if ( ! function_exists( 'lisa_shortcode' ) ) :
 			while ( $query->have_posts() ) : $query->the_post();
         $source = lisa_allowed_data_sources( get_post_meta( get_the_ID(), '_lisa_data_source', true ) );
 
-        $code = lisa_kses( get_post_meta( get_the_ID(), '_lisa_template_code', true ) );
+        $code = lisa_get_template_by_id( get_the_ID() );
 
         $placement = get_post_meta( get_the_ID(), '_lisa_attribute_placement', true );
 

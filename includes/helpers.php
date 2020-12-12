@@ -123,3 +123,11 @@ if ( ! function_exists( 'lisa_kses' ) ) {
 		return trim( $content );
 	}
 }
+
+if ( ! function_exists( 'lisa_get_template_by_id' ) ) {
+	function lisa_get_template_by_id( $id ) {
+		if ( empty( $id ) ) return false;
+		
+		return lisa_kses( get_post_meta( $id, '_lisa_template_code', true ) );
+	}
+}

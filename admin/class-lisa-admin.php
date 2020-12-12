@@ -459,7 +459,7 @@ class Lisa_Templates_Admin {
 
 	public function render_code_mb( $post, $metabox ) {
 		wp_nonce_field( 'lisa_template_code_nonce', 'lisa_template_code_nonce_field' );
-    $code_template_value = lisa_kses( get_post_meta( $post->ID, '_lisa_template_code', true ) );
+    $code_template_value = lisa_get_template_by_id( $post->ID );
     ?>
 		<div id="lisa-editor">
     	<div id="lisa_code_editor" v-cloak>{{ editorCode }}</div>
