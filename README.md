@@ -30,7 +30,7 @@ Lisa Templates is running Twig through a plugin called Timber. Learn more about 
 
 1. Install the [GitHub Updater](https://github.com/afragen/github-updater)-plugin.
 2. In `Settings` > `GitHub Updater` select the `Install Plugin` tab.
-3. Copy and past the GitHub repository uri (which is[http://github.com/pierreminik/lisa-templates](http://github.com/pierreminik/lisa-templates)).
+3. Copy and past the GitHub repository uri (which is [https://github.com/pierreminik/lisa-templates](https://github.com/pierreminik/lisa-templates)).
 4. Install and activate.
 5. Enjoy!
 
